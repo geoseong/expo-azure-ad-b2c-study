@@ -1,0 +1,6 @@
+curl http://localhost:5000/hello \
+-H "Authorization: Bearer [access_token_from_azure_b2c_signin]"
+
+###
+curl http://localhost:5000/auth \
+-H "Authorization: Bearer [access_token_from_azure_b2c_signin]

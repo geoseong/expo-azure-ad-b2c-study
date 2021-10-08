@@ -1,0 +1,6 @@
+{
+  "endpoint": "https://login.microsoftonline.com/[tenant-id]/oauth2/v2.0/token",
+  "clientID": "[application(client)_id]",
+  "scope": "https://graph.microsoft.com/.default",
+  "client_secret": "[client-secret]"
+}

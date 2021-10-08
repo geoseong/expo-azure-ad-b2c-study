@@ -1,0 +1,42 @@
+{
+  "dependencies": {
+    "@emotion/native": "^11.0.0",
+    "@emotion/react": "^11.4.1",
+    "@react-native-async-storage/async-storage": "~1.15.0",
+    "azure-ad-graph-expo": "^2.1.0",
+    "dooboo-ui": "^0.1.34",
+    "expo": "~42.0.0",
+    "expo-auth-session": "~3.3.1",
+    "expo-constants": "~11.0.1",
+    "expo-linking": "~2.3.1",
+    "expo-random": "~11.2.0",
+    "expo-web-browser": "~9.2.0",
+    "jwt-decode": "^3.1.2",
+    "react": "16.13.1",
+    "react-dom": "16.13.1",
+    "react-native": "https://github.com/expo/react-native/archive/sdk-42.0.0.tar.gz",
+    "react-native-gesture-handler": "~1.10.2",
+    "react-native-msal": "^3.1.2",
+    "react-native-web": "~0.13.12",
+    "react-native-webview": "11.6.2"
+  },
+  "devDependencies": {
+    "@babel/core": "~7.9.0",
+    "@expo/webpack-config": "^0.16.0",
+    "@types/react": "~16.9.35",
+    "@types/react-native": "~0.63.2",
+    "typescript": "~4.0.0"
+  },
+  "scripts": {
+    "start": "expo start",
+    "android": "expo start --android",
+    "android:build": "expo build:android",
+    "android:apk": "expo build:android -t apk",
+    "android:keystore": "expo fetch:android:keystore",
+    "ios": "expo start --ios",
+    "web": "expo start --web",
+    "web:https": "expo start:web --https",
+    "eject": "expo eject"
+  },
+  "private": true
+}

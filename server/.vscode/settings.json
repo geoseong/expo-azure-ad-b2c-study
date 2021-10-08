@@ -1,0 +1,4 @@
+{
+  "appService.defaultWebAppToDeploy": "/subscriptions/7041ccd7-0a88-4bb7-b45b-d3d2e2d0225b/resourceGroups/appsvc_linux_centralus/providers/Microsoft.Web/sites/hello-b2c-graph-api",
+  "appService.deploySubpath": "."
+}
